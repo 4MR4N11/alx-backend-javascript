@@ -9,7 +9,7 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
         if (value.status === 'fulfilled') {
           ar.push({ status: value.status, value: value.value });
         } else {
-          ar.push({ status: value.status, value: value.reason.message });
+          ar.push({ status: value.status, value: `Error: ${value.reason.message}` });
         }
       });
       return ar;
