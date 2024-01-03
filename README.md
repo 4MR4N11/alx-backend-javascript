@@ -4,4 +4,4 @@ This repository contains all the projects done during the ALX Backend Javascript
 
 ## Projects
 
-- [0x00-ES6 Basics](./0x00-ES6_Basics) - This project is about learning the basics of ES6.
+- [0x00. ES6 Basics](./0x00-ES6_basic) - This project is about learning the basics of ES6.
